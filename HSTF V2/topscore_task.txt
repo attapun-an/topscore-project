@@ -1,0 +1,11 @@
+OpenTopScore(fileName)
+This function creates a new, empty, top score text file if it doesn't exist, otherwise it opens the text file filename (string) and returns a list of the contents
+
+AddScore(name, score, filename)
+This procedure takes 3 parameters, the name (string), score (integer) and the top score filename (string). It should append this information to the file.
+
+WriteTopScores(topScores, filename)
+This function writes a list to the text file filename (string) as the top score table
+
+DisplayTopScore(filename)
+Displays the top scores in the filename (string)
